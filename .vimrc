@@ -20,7 +20,9 @@ syntax on " syntax highlighting on
 set background=dark
 colorscheme molokai 
 " colorscheme neverland
- 
+
+" turn on auto-pairs plugin
+let g:AutoPairsFlyMode = 1
  
 " Indentation
 filetype plugin indent on
