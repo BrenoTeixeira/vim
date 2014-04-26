@@ -13,16 +13,15 @@ set showcmd
 set term=screen-256color
 set pastetoggle=<F3>
 set incsearch
- 
+set laststatus=2
+
 " sets syntax highlighting and color shceme
 syntax on " syntax highlighting on
  
 set background=dark
 colorscheme molokai 
 " colorscheme neverland
-
-" turn on auto-pairs plugin
-let g:AutoPairsFlyMode = 1
+ 
  
 " Indentation
 filetype plugin indent on
@@ -38,3 +37,24 @@ set smarttab
 autocmd FileType python set shiftwidth=4
 autocmd FileType python set softtabstop=4
 autocmd FileType python set tabstop=8
+
+
+" Vundle config
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'tpope/vim-fugitive'
+Plugin 'davidhalter/jedi-vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
