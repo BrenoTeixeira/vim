@@ -51,10 +51,21 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-
 Plugin 'tpope/vim-fugitive'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'bling/vim-airline'
+Plugin 'airblade/vim-gitgutter'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+
+" Jedi configs
+let g:jedi#popup_on_dot = 1
+let g:jedi#popup_select_first = 1
+
+" NerdTree configs
+map <C-n> :NERDTreeToggle<CR>
+map <C-m> :set norelativenumber!<CR>
