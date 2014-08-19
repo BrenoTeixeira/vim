@@ -2,6 +2,15 @@
 
 ## Installation
 
+## Plugins
+
+* [Vundle](https://github.com/gmarik/Vundle.vim)
+* [vim-fugitive](https://github.com/tpope/vim-fugitive)
+* [jedi-vim](https://github.com/davidhalter/jedi-vim)
+* [nerdtree](https://github.com/scrooloose/nerdtree)
+* [vim-airline](https://github.com/bling/vim-airline)
+* [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+
 ### Create a new Configuration
 ~~~ bash
 $ cd ~/
