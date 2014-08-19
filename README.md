@@ -1,8 +1,8 @@
 # Breno's vim files
 
-## Installation
+My Vim configurations.
 
-## Plugins
+### Plugins
 
 * [Vundle](https://github.com/gmarik/Vundle.vim)
 * [vim-fugitive](https://github.com/tpope/vim-fugitive)
@@ -10,6 +10,9 @@
 * [nerdtree](https://github.com/scrooloose/nerdtree)
 * [vim-airline](https://github.com/bling/vim-airline)
 * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+
+## Installation
+
 
 ### Create a new Configuration
 ~~~ bash
